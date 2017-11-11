@@ -1,37 +1,92 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<meta charset="utf-8">
-	<title>Mason Terry Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-</head>
-<body>
-	<header>
-	<h1>Portfolio</h1>
-	</header>
-
-	<div class="container">
-	<section id="main-bio">
-	<h2>Mason Terry</h2>
-	
-	<img id="bio-image" src="Profile Pic.png" height="auto" width="200px" alt="Mason Terry Image">
-	<br>
-
-	<p>Bacon ipsum dolor amet leberkas frankfurter jerky beef. Shank picanha ham sausage flank pancetta corned beef ribeye drumstick short loin. Sirloin ham meatball pancetta drumstick kielbasa, meatloaf cupim jowl andouille bacon turducken swine. Tongue pork belly jowl short ribs, kielbasa tenderloin pig. T-bone kevin tri-tip, corned beef pork loin spare ribs fatback jerky cupim pancetta.</p>
-
-	<p>Beef ribs leberkas strip steak, fatback kevin meatball corned beef. Sausage ball tip pig leberkas turkey pork chop. Ball tip cupim pancetta, corned beef fatback burgdoggen alcatra bresaola. Pancetta fatback t-bone swine. Rump sausage strip steak shankle tongue jerky cow pastrami. Tail andouille t-bone sausage biltong pig.</p>
-	</section>
-	<br>
-	
-	<section id="contact-info">
-	<h2>Contact Information</h2>
-	<ul>
-		<li><strong>Email: </strong><a href="mailto:masonjterry@gmail.com">masonjterry@gmail.com</a></li>
-		<li><strong>GitHub: </strong><a href="#">masonjterry</a></li>
-		<li><strong>Portfolio: </strong><a href="#">Coming Soon</a></li>
-	</ul>
-	</section>
-	</div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mason Terry</title>
+		<!-- CSS Reset -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- Own CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-custom navbar-default">
+			<a class="navbar-brand" href="index.html">Mason Terry</a>
+			<button id="button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link nav-btn" href="index.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-btn" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-btn" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<!-- About Me -->
+				<div class="col-md-8 col-xs-12">
+					<section id="mainSection">
+						<!-- About Me Heading -->
+						<h1>About Me</h1>
+						<!-- Profile Image -->
+						<div class="row">
+							<div class="col-md-6">
+								<img id="profileImg" class="img-fluid float-md-left" src="assets/images/Profile-Pic.jpg" alt="Mason Terry Image">
+							</div>
+							<!-- Paragraph 1 -->
+							<div class="col-md-6">
+								<p class="paragraph">My name is Mason Terry, and I live in Austin, TX. Welcome to my portfolio! I am a developer and a musician, and I love to create! I love taking an idea and turning it into something that the world can see and hear.</p>
+								<!-- Paragraph 2 -->
+								<p class="paragraph">Take a look around and see what I have helped to create. I would love to help you create the app or website that you have in you head. I can't wait to create with you!</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Connect -->
+				<div class="col-md-4 col-xs-12">
+					<aside id="aside">
+						<!-- Connect Heading -->
+						<h2>Connect with Me</h2>
+						<div id="icon-row-index" class="row">
+							<div class="col-xs-4">
+								<a href="https://github.com/masonjterry/" target="_blank"><img id="github-logo" class="img-fluid imgSize" src="assets/images/GitHub-Logo.png" alt="GitHub Logo"></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="https://www.linkedin.com/in/masonterry/" target="_blank"><img id="linkedin-logo" class="img-fluid imgSize" src="assets/images/LinkedIn-Logo.png" alt="LinkedIn Logo"></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="https://stackoverflow.com/users/8839924/mason-terry" target="_blank"><img id="stackoverflow-logo" class="img-fluid imgSize" src="assets/images/StackOverflow-Logo.png" alt="StackOverflow Logo"></a>
+							</div>
+						</div>
+					</aside>
+				</div>
+				
+			</div>
+			<!-- Footer -->
+			<div class="row">
+				<div class="col-md-12">
+					<footer>
+						Copyright &copy; 2017 Mason Terry
+					</footer>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<!-- Popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	</body>
 </html>
