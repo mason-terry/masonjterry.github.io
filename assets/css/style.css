@@ -96,6 +96,10 @@ footer {
   padding: 5px;
 }
 
+.image-container {
+  max-height: 230px;
+}
+
 #icon-row-index, #icon-row-port, #icon-row-cont {
   justify-content: space-around;
 }
