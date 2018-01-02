@@ -1,92 +1,189 @@
 <!DOCTYPE html>
-<html lang="en-us">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Mason Terry</title>
-		<!-- CSS Reset -->
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<!-- Own CSS -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-custom navbar-default">
-			<a class="navbar-brand" href="index.html">Mason Terry</a>
-			<button id="button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link nav-btn" href="index.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link nav-btn" href="portfolio.html">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link nav-btn" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div class="container-fluid">
-			<div class="row">
-				<!-- About Me -->
-				<div class="col-md-8 col-xs-12">
-					<section id="mainSection">
-						<!-- About Me Heading -->
-						<h1>About Me</h1>
-						<!-- Profile Image -->
-						<div class="row">
-							<div class="col-md-6">
-								<img id="profileImg" class="img-fluid float-md-left" src="assets/images/Profile-Pic.jpg" alt="Mason Terry Image">
-							</div>
-							<!-- Paragraph 1 -->
-							<div class="col-md-6">
-								<p class="paragraph">My name is Mason Terry, and I live in Austin, TX. Welcome to my portfolio! I am a developer and a musician, and I love to create! I love taking an idea and turning it into something that the world can see and hear.</p>
-								<!-- Paragraph 2 -->
-								<p class="paragraph">Take a look around and see what I have helped to create. I would love to help you create the app or website that you have in you head. I can't wait to create with you!</p>
-							</div>
-						</div>
-					</section>
-				</div>
-				<!-- Connect -->
-				<div class="col-md-4 col-xs-12">
-					<aside id="aside">
-						<!-- Connect Heading -->
-						<h2>Connect with Me</h2>
-						<div id="icon-row-index" class="row">
-							<div class="col-xs-4">
-								<a href="https://github.com/masonjterry/" target="_blank"><img id="github-logo" class="img-fluid imgSize" src="assets/images/GitHub-Logo.png" alt="GitHub Logo"></a>
-							</div>
-							<div class="col-xs-4">
-								<a href="https://www.linkedin.com/in/masonterry/" target="_blank"><img id="linkedin-logo" class="img-fluid imgSize" src="assets/images/LinkedIn-Logo.png" alt="LinkedIn Logo"></a>
-							</div>
-							<div class="col-xs-4">
-								<a href="https://stackoverflow.com/users/8839924/mason-terry" target="_blank"><img id="stackoverflow-logo" class="img-fluid imgSize" src="assets/images/StackOverflow-Logo.png" alt="StackOverflow Logo"></a>
-							</div>
-						</div>
-					</aside>
-				</div>
-
-			</div>
-			<!-- Footer -->
-			<div class="row">
-				<div class="col-md-12">
-					<footer>
-						Copyright &copy; 2017 Mason Terry
-					</footer>
-				</div>
-			</div>
-		</div>
-		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<!-- Popper -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	</body>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Mason Terry | Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+    <!-- NavBar -->
+      <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mason Terry</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#page1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page2-header">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page3-header">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page4-header">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+     <!-- Body -->
+     <!-- Welcome -->
+      <div class="row">
+        <div class="col-md-12">
+          <section class="parallax-1">
+            <div id="page1">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Welcome to my portfolio!</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <blockquote class="blockquote">
+                  <p>Everyone should know how to program a computer, because it teaches you how to think.</p>
+                  <footer><strong>Steve Jobs</strong></footer>
+                </blockquote>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- About Header -->
+      <div class="row">
+        <div class="col-md-12">
+          <section class="parallax-2">
+            <div id="page2-header">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>About</h2>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- About Body -->
+      <div class="row">
+        <div class="col-md-12">
+          <section class="parallax-3">
+            <div class="" id="page2-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>About Me</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-center">
+                    <img src="assets/images/profile-pic.png" class="rounded" alt="mason">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="paragraph-design">My name is Mason Terry, and I live in Austin, TX. Welcome to my portfolio! I am a developer and a musician, and I love to create! I love taking an idea and turning it into something that the world can see and hear. Take a look around and see what I have helped to create. I would love to help you create the app or website that you have in you head. I can't wait to create with you!</p>
+                </div>
+              </div>
+            </div>
+          </setion>
+        </div>
+      </div>
+      <!-- Portfolio Header -->
+      <div class="row">
+        <div class="col-md-12">
+          <section class="parallax-4">
+            <div id="page3-header">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>Portfolio</h2>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- Portfolio Body -->
+      <div class="row">
+        <div class="col-md-12">
+          <section class="parallax-5">
+            <div id="page3-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>Here are a few projects that I have worked on.</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-center">
+                    <a href="https://masonjterry.github.io/Hangman-Game/" target="_blank"><img id="hangman" src="assets/images/Hangman.png" class="portfolio-image" alt="hangman"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-center">
+                    <a href="https://protected-ocean-92971.herokuapp.com/" target="_blank"><img id="burger-time" src="assets/images/burger-time.png" class="portfolio-image" alt="burger time"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </setion>
+        </div>
+      </div>
+      <!-- Contact Header -->
+      <div class="row">
+        <div class="col-md-12">
+          <section class="parallax-6">
+            <div id="page4-header">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>Connect</h2>
+                </div>
+              </div>
+            </div>
+          </setion>
+        </div>
+      </div>
+      <!-- Contact Body -->
+      <div class="row">
+        <div class="col-md-12">
+          <section class="parallax-7">
+            <div id="page4-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>I would love to connect with you!</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-center">
+                    <a id="github" href="https://github.com/masonjterry/" target="_blank"><img src="assets/images/GitHub-Logo.png" class="contact-image" alt="github logo"></a>
+                    <a id="linkedIn" href="https://www.linkedin.com/in/masonterry/" target="_blank"><img src="assets/images/LinkedIn-Logo.png" class="contact-image" alt="linkedIn logo"></a>
+                    <a id="stackOverflow" href="https://stackoverflow.com/users/8839924/mason-terry" target="_blank"><img src="assets/images/StackOverflow-Logo.png" class="contact-image" alt="stackOverflow logo"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </setion>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="row">
+        <div class="col-md-12">
+          <footer id="footer" class="text-center">Mason Terry &copy; 2018</footer>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
