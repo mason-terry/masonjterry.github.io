@@ -12,6 +12,10 @@ body {
   max-width: 100%;
 }
 
+.portfolio-heading {
+  text-align: center;
+}
+
 .parallax-1 {
   height: 800px;
   background: url("../images/mac-coffee.jpeg");
