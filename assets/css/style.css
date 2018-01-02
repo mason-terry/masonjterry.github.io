@@ -3,6 +3,7 @@
 }
 
 body {
+  font-family: serif;
   background: #fff;
 }
 
@@ -12,7 +13,7 @@ body {
   max-width: 100%;
 }
 
-.portfolio-heading {
+h5 {
   text-align: center;
 }
 
