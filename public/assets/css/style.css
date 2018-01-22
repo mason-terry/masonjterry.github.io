@@ -76,6 +76,7 @@ h5 {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .portfolio-image {
   max-width: 45%;
   border: solid 2px #aaa;
@@ -94,8 +95,19 @@ h5 {
 
 }
 
+.btn-social {
+  background-color: #444;
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+}
+
+#connect-body {
+  text-align: center;
+}
+
 a {
-  text-transform: lowercas;
+  text-transform: lowercase;
   font-size: 20px;
 }
 
@@ -157,4 +169,53 @@ img {
 
 #footer {
   padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+        font-family: sans-serif;
+    }
+
+    h2 {
+      font-size: 3.2rem;
+      padding: 10px;
+    }
+
+    .btn-social {
+      background-color: #444;
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+    }
+
+    .parallax-1 {
+      background: lightblue;
+      padding-top: 30px;
+    }
+
+    .parallax-2 {
+      background: #444;
+      max-height: 100px;
+    }
+
+    .parallax-3 {
+      background: lightblue;
+    }
+
+    .parallax-4 {
+      background: #444;
+    }
+
+    .parallax-5 {
+      background: lightblue;
+    }
+
+    .parallax-6 {
+      background: #444;
+    }
+
+    .parallax-7 {
+      background: lightblue;
+    }
 }
