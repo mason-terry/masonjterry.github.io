@@ -11,7 +11,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Patua+One|Squada+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Dosis" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
@@ -37,9 +37,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#connect">Connect</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="https://docs.google.com/document/d/1_X8q9-KgWB2a7107DtWjqHXbCDeYvcWOCr2OVjsSdos/edit?usp=sharing">Resume</a>
-            </li>
           </ul>
         </div>
       </nav>
@@ -51,16 +48,9 @@
             <div id="welcome">
               <div class="row">
                 <div class="col-md-12">
-                  <h1>Welcome to my portfolio!</h1>
+                  <h1 id="home-name" class="home">Mason Terry</h1>
+                  <h3 id="home-sub" class="home">Web Developer</h3>
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <blockquote class="blockquote">
-                  <p>Everyone should know how to program a computer, because it teaches you how to think.</p>
-                  <footer><strong>Steve Jobs</strong></footer>
-                </blockquote>
               </div>
             </div>
           </section>
@@ -81,31 +71,28 @@
         </div>
       </div>
       <!-- About Body -->
-      <div class="row">
-        <div class="col-md-12">
-          <section class="parallax-3">
-            <div class="" id="about-body">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3>About Me</h3>
+        <section class="parallax-3">
+          <div id="about-body">
+            <div class="row">
+              <div class="col-md-1"></div>
+                <div class="col-md-10">
+              <div class="about-div">
+                <div class="row">
+                  <div class="col-md-2">
+                  <img src="assets/images/profile-pic.jpg" class="rounded bio-img" alt="mason">
+                </div>
+                <div class="col-md-10">
+                  <p class="paragraph-design">Hey, I'm Mason. Thanks for stopping by.</p>
+                  <p class="paragraph-design">I am a developer with a passion for using numbers and letters to turn something boring into something beautiful.
+                    Using my skills in HTML, CSS, JavaScript, and frameworks such as React, along with my strengths in problem solving and design, I enjoy making web pages and apps that create effective solutions and are functional and appealing to the eye.
+                    My background as a musician has helped me learn the skills necessary, and I am always looking for new ways to grow and excel as a developer.</p>
+                    <p class="paragraph-design">Take a look at some of my projects below. I hope to connect with you soon!</p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="text-center">
-                    <img src="assets/images/profile-pic.png" class="rounded" alt="mason">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <p class="paragraph-design">Welcome! I am a developer and a musician, and I have a passion for Web Development. I love using my skills in JavaScript and CSS to manipulate numbers and letters and turn something boring into something beautiful! I love using my strengths in design and problem solving to make web pages and apps that are functional and help solve a problem. I am always looking for new ideas and ways to take my skills to the next level. Take a look at some of the projects I have worked on. If you like what you see, connect with me below!</p>
-                </div>
-              </div>
+              <div class="col-md-1"></div>
             </div>
-          </setion>
-        </div>
-      </div>
+          </div>
+        </section>
       <!-- Portfolio Header -->
       <div class="row">
         <div class="col-md-12">
@@ -126,63 +113,58 @@
           <section class="parallax-5">
             <div id="portfolio-body">
               <div class="row">
-                <div class="col-md-12">
-                  <h3>Here are a few projects that I have worked on.</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 port-div">
                   <h5 class="portfolio-heading">Skills used: React, Google API, MongoDB, Express, Passport</h5>
-                  <p class="text-center">My role: Full-Stack (Side Project)</p>
+                  <p class="text-center">My role: Full-Stack</p>
                   <div class="text-center">
                     <a href="https://errandsnow.herokuapp.com/" target="_blank"><img id="errands-now" src="assets/images/errands-now.png" class="portfolio-image" alt="errands now"></a>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-5 port-div">
                   <h5 class="portfolio-heading">Skills used: React, Google API, MongoDB, Express, Passport</h5>
                   <p class="text-center">My role: Front-End (React and Material UI)</p>
                   <div class="text-center">
                     <a href="https://double-date.herokuapp.com/" target="_blank"><img id="night-out" src="assets/images/night-out.png" class="portfolio-image" alt="night out"></a>
                   </div>
                 </div>
+                <div class="col-md-1"></div>
               </div>
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 port-div">
                   <h5 class="portfolio-heading">Skills used: HTML, CSS, JavaScript, Handlebars, Heroku, MySQL</h5>
                   <p class="text-center">My role: Full-Stack (HTML, CSS, JavaScript, Express)</p>
                   <div class="text-center">
                     <a href="https://hobbycentral.herokuapp.com/" target="_blank"><img id="hobbyCentral" src="assets/images/hobby-central.png" class="portfolio-image" alt="hobby central"></a>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-5 port-div">
                   <h5 class="portfolio-heading">Skills used: HTML, CSS, JavaScript</h5>
                   <p class="text-center">My role: Front-End (HTML, CSS, JavaScript)</p>
                   <div class="text-center">
                     <a href="https://masonjterry.github.io/Hangman-Game/" target="_blank"><img id="hangman" src="assets/images/Hangman.png" class="portfolio-image" alt="hangman"></a>
                   </div>
                 </div>
+                <div class="col-md-1"></div>
               </div>
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 port-div">
                   <h5 class="portfolio-heading">Skills used: HTML, CSS, jQuery, Google Maps API</h5>
                   <p class="text-center">My role: APIs Google Maps and OpenWeather</p>
                   <div class="text-center">
                     <a href="https://masonjterry.github.io/StreetTron/" target="_blank"><img id="street-tron" src="assets/images/street-tron.png" class="portfolio-image" alt="street tron"></a>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-5 port-div">
                   <h5 class="portfolio-heading">Skills used: HTML, CSS, jQuery</h5>
                   <p class="text-center">My role: Front-End (HTML, CSS, jQuery)</p>
                   <div class="text-center">
                     <a href="https://masonjterry.github.io/Magnet-Fun/" target="_blank"><img id="magnet-fun" src="assets/images/magnet-fun.png" class="portfolio-image" alt="magnet fun"></a>
                   </div>
                 </div>
+                <div class="col-md-1"></div>
               </div>
             </div>
           </setion>
@@ -203,28 +185,27 @@
         </div>
       </div>
       <!-- Contact Body -->
-          <section class="parallax-7">
-            <div id="connect-body">
-              <h3>I would love to connect with you!</h3>
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a id="github" class="btn btn-outline-light btn-social" target="_blank" href="https://github.com/masonjterry/">
-                      <i class="fa fa-fw fa-github"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a id="stackoverflow" class="btn btn-outline-light btn-social" target="_blank" href="https://stackoverflow.com/users/8839924/mason-terry">
-                      <i class="fa fa-fw fa-stack-overflow "></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a id="linkedin" class="btn btn-outline-light btn-social" target="_blank" href="https://www.linkedin.com/in/masonterry/">
-                      <i class="fa fa-fw fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-            </div>
-          </section>
+      <section class="parallax-7">
+        <div id="connect-body">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a id="github" class="btn btn-outline-light btn-social" target="_blank" href="https://github.com/masonjterry/">
+                <i class="fa fa-fw fa-github"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a id="stackoverflow" class="btn btn-outline-light btn-social" target="_blank" href="https://stackoverflow.com/users/8839924/mason-terry">
+                <i class="fa fa-fw fa-stack-overflow "></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a id="linkedin" class="btn btn-outline-light btn-social" target="_blank" href="https://www.linkedin.com/in/masonterry/">
+                <i class="fa fa-fw fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <!-- Footer -->
       <div class="row">
         <div class="col-md-12">
