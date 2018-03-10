@@ -12,6 +12,10 @@ h5 {
   text-align: center;
 }
 
+nav {
+  background-color: #fff;
+}
+
 .bio-img {
   width: 110%;
 }
