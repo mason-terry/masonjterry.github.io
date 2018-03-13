@@ -27,20 +27,20 @@ nav {
 
 .about-div {
   border-radius: 15px;
-  background-color: rgba(250, 250, 250, .8);
+  background-color: rgba(250, 250, 250, 1);
   padding: 10px;
   margin: 180px 0;
 }
 
 .port-div {
   border-radius: 15px;
-  background-color: rgba(250, 250, 250, .8);
+  background-color: rgba(250, 250, 250, 1);
   padding: 10px;
   margin: 20px 10px;
 }
 
 .port-div:hover {
-  background-color: rgba(100, 100, 100, .8);
+  background-color: rgba(100, 100, 100, 1);
   color: #fff;
 }
 
@@ -58,6 +58,7 @@ nav {
 
 .parallax-1 {
   height: 800px;
+  /* background: url("../images/mac-coffee.jpeg"); */
   background: url("../images/mac-coffee.jpeg");
   background-attachment: fixed;
   background-position: center;
@@ -76,7 +77,8 @@ nav {
 .parallax-3 {
   height: auto;
   background-color: #ddd;
-  background: url("../images/mac-person.jpeg");
+  /* background: url("../images/mac-person.jpeg"); */
+  background: url("../images/mac-notebook.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +95,8 @@ nav {
 
 .parallax-5 {
   height: auto;
-  background: url("../images/mac-notebook.jpeg");
+  /* background: url("../images/mac-notebook.jpeg"); */
+  background: url("../images/mac-person.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +113,7 @@ nav {
 
 .parallax-7 {
   height: auto;
-  background: url("../images/code.png");
+  background: url("../images/code.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -120,10 +123,6 @@ nav {
 .portfolio-image {
   max-width: 90%;
   border: solid 2px #aaa;
-}
-
-.portfolio-image:hover {
-  border: solid 2px white;
 }
 
 .contact-image:hover {
